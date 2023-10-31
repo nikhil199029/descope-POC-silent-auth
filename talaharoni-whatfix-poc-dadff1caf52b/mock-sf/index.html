@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+    <script src="static/libraries/oidc/oidc-client-ts.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <h1>Mock Host Application (Example - SalesForce)</h1>
+      <div id="loggedIn" style="display: none">
+        <span id="txtUserName"></span>
+      </div>
+      <div id="notLoggedin">
+        Not Logged in 
+        <button id="btnSignIn">Sign In</button>
+      </div>
+    </div>
+    <script src="static/js/index.js" async></script>
+    <iframe
+      src="http://localhost:8080/"
+      frameborder="1"
+      style="position: fixed; right: 0; top: 0; width: 500px; height: 850px;"
+    ></iframe>
+  </body>
+</html>

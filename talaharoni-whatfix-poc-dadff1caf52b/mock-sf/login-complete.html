@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="static/libraries/oidc/oidc-client-ts.js"></script>
+</head>
+<body>
+    <h1> Mock Host Application - Secure Page</h1>
+    <div>
+        Log In Completed. You have logged in as <b><span id="txtUserName"></span> (<span id="txtEmailId"></span> )</b>
+    </div>
+
+    <button id="btnSignOut">Logout</button>
+    <a href="/">Home</a>
+
+    <script src="static/js/login-complete.js" async></script>
+
+    <iframe src="http://localhost:8080/" frameborder="1" style="position:fixed;right:0;top:0;width:500px; height:850px;"></iframe>
+
+
+</body>
+</html>
